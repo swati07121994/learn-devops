@@ -4,7 +4,7 @@ import cockatiel from './cockatiel.png';
 function App() {
   return (
     <div className="App">
-      <h1>Old Cockatiels</h1>
+      <h1>New Cockatiels</h1>
       <img src={cockatiel} width="500" alt="cuku" />
     </div>
   );
