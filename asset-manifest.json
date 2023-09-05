@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/aws-deploy/static/css/main.073c9b0a.css",
-    "main.js": "/aws-deploy/static/js/main.7b2e94d8.js",
-    "static/js/787.b6f35768.chunk.js": "/aws-deploy/static/js/787.b6f35768.chunk.js",
-    "index.html": "/aws-deploy/index.html",
-    "main.073c9b0a.css.map": "/aws-deploy/static/css/main.073c9b0a.css.map",
-    "main.7b2e94d8.js.map": "/aws-deploy/static/js/main.7b2e94d8.js.map",
-    "787.b6f35768.chunk.js.map": "/aws-deploy/static/js/787.b6f35768.chunk.js.map"
+    "main.css": "./static/css/main.073c9b0a.css",
+    "main.js": "./static/js/main.a5aa9dd5.js",
+    "static/js/787.b6f35768.chunk.js": "./static/js/787.b6f35768.chunk.js",
+    "static/media/cockatiel.png": "./static/media/cockatiel.48636539ac13aefd0b25.png",
+    "index.html": "./index.html",
+    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
+    "main.a5aa9dd5.js.map": "./static/js/main.a5aa9dd5.js.map",
+    "787.b6f35768.chunk.js.map": "./static/js/787.b6f35768.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7b2e94d8.js"
+    "static/js/main.a5aa9dd5.js"
   ]
 }
