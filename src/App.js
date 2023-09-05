@@ -1,5 +1,5 @@
 import './App.css';
-import cockatiel from './cockatiel.png';
+// import cockatiel from './cockatiel.png';
 
 function App() {
   return (
