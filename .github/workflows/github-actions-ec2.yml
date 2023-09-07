@@ -27,14 +27,12 @@ jobs:
 
     - name: Deploy to Server 1
       uses: easingthemes/ssh-deploy@main
-    - run: echo "artifactname=${{ env.rollbackartifact }}" >> $GITHUB_ENV
       env:
         SSH_PRIVATE_KEY: ${ { secrets.EC2_SSH_KEY }}
         SOURCE: '/build'
         REMOTE_HOST: ${ { secrets.HOST_DNS }}
         REMOTE_USER: ${ { secrets.USERNAME }}
         TARGET: ${ { secrets.TARGET_DIR }}
-        EXCLUDE: '/node_modules/'
 
     - name: Executing remote ssh commands using ssh key
       uses: appleboy/ssh-action@master
