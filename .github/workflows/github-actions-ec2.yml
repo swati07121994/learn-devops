@@ -43,5 +43,6 @@ jobs:
           sudo apt-get -y update
           sudo systemctl restart apache2
           sudo systemctl enable apache2
+          sudo rm -rf /var/www/html/*
           cd home/build
           sudo mv * /var/www/html
