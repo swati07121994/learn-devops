@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>My lovely Cockatiels</h1>
-      <p>Romeo & Juliet</p>
+      <p>Pipuu & Juliet</p>
       <img src={cockatiel} width="500" alt="cuku" />
     </div>
   );
